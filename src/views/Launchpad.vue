@@ -7,14 +7,12 @@
 </template>
 
 <script>
-import { BFormSelect } from 'bootstrap-vue'
 import Collection721CreationForm from '@/components/Collection721CreationForm.vue'
 import Collection1155CreationForm from '@/components/Collection1155CreationForm.vue'
 
 export default {
     name: 'Launchpad',
     components: {
-        BFormSelect,
         Collection721CreationForm,
         Collection1155CreationForm
     },

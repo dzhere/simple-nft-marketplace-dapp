@@ -12,15 +12,7 @@
 </template>
 
 <script>
-import { BForm, BFormGroup, BFormInput } from 'bootstrap-vue'
-
 export default {
-    name: 'Collection721CreationForm',
-    components: { BForm, BFormGroup, BFormInput },
-    data() {
-        return {
-
-        }
-    }
+    name: 'Collection721CreationForm'
 }
 </script>
